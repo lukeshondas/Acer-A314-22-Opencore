@@ -29,7 +29,7 @@ No keyboard or touchpad working yet.
 | Display          | 13 inch 1920x1080 IPS Matte Panel                                                                              |
 | Wifi & Bluetooth | Intel® Dual-Band Wireless-AC 8265                                                                              |
 | LAN              | Realtek RTL8168H/8111H                                                                                         |
-| Audio            | Realtek                                                                                                        |
+| Audio            | Realtek ALC255                                                                                                        |
 | External ports   | 2 x USB 3.0, 1 x Ethernet, 1 x USB 2.0, 1 x HDMI 1.4, 1 x 3.5 headphone/microphone combo,                      |
 
 ### Working and Not Working
