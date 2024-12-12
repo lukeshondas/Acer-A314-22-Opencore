@@ -46,7 +46,7 @@ No keyboard or touchpad working yet.
 | iGPU & HDMI                                       | ✅     |Working perfectly with NootedRed   |
 | USB                                               | ✅     |                                   |
 | Sleep                                             | ✅     |Faulty SSD was stopping it from working   |
-| Handoff                                           | ❌     |                                   |
+| Handoff                                           | ✅     |                                   |
 | Airdrop                                           | ❌     |                                   |
 
 
