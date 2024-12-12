@@ -13,7 +13,7 @@ This EFI has been tested on Mac OS 13 `Ventura` and Mac OS 14 `Sonoma` currently
 
 This machine is VERY difficult to get running even with the supplied EFI, I've been battling with it for many hours, so this isn't for the faint of heart, but it does work eventually.
 
-Only faults so far, is no working wifi (I have to remove the wifi card otherwise I get random kernel panics) and no keyboard or touchpad working yet.
+Only faults so far, is <s>no working wifi</s> no keyboard or touchpad working yet. Also the laptop won't boot the full install with the charger plugged in, try unplug the charger if you experiance a kernel panic during boot.
 
 
 ## Specs
@@ -25,7 +25,7 @@ Only faults so far, is no working wifi (I have to remove the wifi card otherwise
 | Memory           | 12Gb (1 x 4Gb 2400MHz soldered and 1x8GB DDR4 Sodimm)                                                          |
 | Storage          | 128gb NVMe (SATA currently <strong> NOT WORKING </strong>)                                                     |
 | Display          | 13 inch 1920x1080 IPS Matte Panel                                                                              |
-| Wifi & Bluetooth | None <strong> You need to remove your wifi card for the machine to boot </strong>                              |
+| Wifi & Bluetooth | Intel® Dual-Band Wireless-AC 8265                                                                              |
 | LAN              | Realtek RTL8168H/8111H                                                                                         |
 | Audio            | Realtek                                                                                                        |
 | External ports   | 2 x USB 3.0, 1 x Ethernet, 1 x USB 2.0, 1 x HDMI 1.4, 1 x 3.5 headphone/microphone combo,                      |
@@ -37,8 +37,8 @@ Only faults so far, is no working wifi (I have to remove the wifi card otherwise
 | Keyboard                                          | ❌     |In Progress                        |
 | Touchpad                                          | ❌     |In Progress                        |
 | Ethernet                                          | ✅     |                                   |
-| Wifi                                              | ❌     |In Progress                        |
-| Bluetooth                                         | ❌     |In Progress                        |
+| Wifi                                              | ✅     |Working perfectly with Airportitlwm|
+| Bluetooth                                         | ✅     |                                   |
 | Camera & Mic                                      | ✅     |                                   |
 | Speaker & 3.5mm audio port                        | ✅     |                                   |
 | iGPU & HDMI                                       | ✅     |Working perfectly with NootedRed   |
