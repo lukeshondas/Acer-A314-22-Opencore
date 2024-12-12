@@ -5,18 +5,18 @@
 I've always wanted to try to get a working AMD Hackintosh, and this machine is very cheap and has a modern enough CPU so I decided to finally try and get an all AMD machine working.
 
 
-Its currently working enough that I have created and written this entire Repo on the machine itself.
+It works VERY well on Mac OS, and even for a weak CPU, I'd say it feels much snappier and better on Mac OS compared to Windows.
 
 ## Overview
 
-This EFI has been tested on Mac OS 13 `Ventura` and Mac OS 14 `Sonoma` currently <strong> NOT WORKING </strong> on Mac OS 15 `Sequoia`.
+This EFI has been tested and is perfect on Mac OS 13 `Ventura` and Mac OS 14 `Sonoma` currently <strong> NOT WORKING </strong> on Mac OS 15 `Sequoia` (WIP).
 
-This machine is VERY difficult to get running even with the supplied EFI, I've been battling with it for many hours, so this isn't for the faint of heart, but it does work eventually.
+This machine is <s>VERY difficult</s> fairly easy to get running with the supplied EFI, Just make sure to follow my exact instructions under Usage.
 
-Only faults so far, is <s>no working wifi Also the laptop won't boot the full install with the charger plugged in, try unplug the charger if you experiance a kernel panic during boot. </s> THIS WAS CAUSED BY A FAULTY NVME SSD
+<s>Only faults so far, is no working wifi Also the laptop won't boot the full install with the charger plugged in, try unplug the charger if you experiance a kernel panic during boot. </s> THIS WAS CAUSED BY A FAULTY NVME SSD
 
 
-No keyboard or touchpad working yet.
+<s> No keyboard or touchpad working yet. </s>
 
 ## Specs
 
@@ -25,7 +25,7 @@ No keyboard or touchpad working yet.
 | CPU              | 2.3 GHz AMD Athlon Silver 3050U with Radeon Graphics                                                           |
 | iGPU             | AMD Radeon Graphics                                                                                            |
 | Memory           | 12Gb (1 x 4Gb 2400MHz soldered and 1x8GB DDR4 Sodimm)                                                          |
-| Storage          | <s>Intel 600P 128gb</s> Toshiba 512GB NVMe (SATA currently <strong> NOT WORKING </strong>)                                                     |
+| Storage          | <s>Intel 600P 128gb</s> Toshiba 512GB NVMe & 256GB Sata SSD (SATA fixed)                                       |
 | Display          | 13 inch 1920x1080 IPS Matte Panel                                                                              |
 | Wifi & Bluetooth | Intel® Dual-Band Wireless-AC 8265                                                                              |
 | LAN              | Realtek RTL8168H/8111H                                                                                         |
@@ -36,8 +36,8 @@ No keyboard or touchpad working yet.
 
 |                                                   | Status | Note                              |
 | ------------------------------------------------- | ------ | ----------------------------------|
-| Keyboard                                          | ❌     |In Progress                        |
-| Touchpad                                          | ❌     |In Progress                        |
+| Keyboard                                          | ✅     |                                   |
+| Touchpad                                          | ✅     |With all gestures                  |
 | Ethernet                                          | ✅     |                                   |
 | Wifi                                              | ✅     |Working perfectly with Airportitlwm|
 | Bluetooth                                         | ✅     |                                   |
@@ -45,7 +45,7 @@ No keyboard or touchpad working yet.
 | Speaker & 3.5mm audio port                        | ✅     |                                   |
 | iGPU & HDMI                                       | ✅     |Working perfectly with NootedRed   |
 | USB                                               | ✅     |                                   |
-| Sleep                                             | ✅     |Faulty SSD was stopping it from working   |
+| Sleep                                             | ✅     |                                   |
 | Handoff                                           | ✅     |                                   |
 | Airdrop                                           | ❌     |                                   |
 
