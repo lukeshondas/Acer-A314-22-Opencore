@@ -52,11 +52,25 @@ This machine is <s>VERY difficult</s> fairly easy to get running with the suppli
 
 ## Usage
 
-Download my EFI, Change your Serial with [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) 
+1. Download my EFI, Change your Serial with [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) 
 
-This EFI relies on the use of NootedRed which is a kext that allows the intergrated AMD grphics to work.
+2. Go into the bios and make sure to disable `AMD-SVM` and `AMD-IOMMU` and `Secure Boot`
+
+3. This EFI relies on the use of NootedRed which is a kext that allows the intergrated AMD grphics to work.
 For this to work properely though your computer has to have at least 512MB of VRAM manually set (I'm using 1GB) and this is not possible to do on the factory Acer BIOS.
-To do this you need to download [SmokelessUMAF](https://github.com/DavidS95/Smokeless_UMAF) and copy it onto a FAT32 formatted USB. Once you've done that, boot from it.
+To do this you need to download [SmokelessUMAF](https://github.com/DavidS95/Smokeless_UMAF) 
+
+4. copy it onto a FAT32 formatted USB. 
+
+5. Once you've done that press F12 and boot from it.
+
+6. You should get a grey screen with a menu, use the arrow keys and select `Device Manager` then select `AMD CBS` then `NBIO Common Options` then `GFX Configuration`
+
+7. Next youll need to select `UMA Mode` and change it to `UMA_SPECIFIED`
+
+8. Then go down and select `UMA Frame buffer Size` and change it to `1G`
+
+9. Now you should be okay to hit escape and save your changes and then reboot, your then ready to use the EFI
 
 
 
