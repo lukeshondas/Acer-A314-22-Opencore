@@ -54,6 +54,9 @@ This machine is <s>VERY difficult</s> fairly easy to get running with the suppli
 
 Download my EFI, Change your Serial with [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) 
 
-MORE TO COME SOON.
+This EFI relies on the use of NootedRed which is a kext that allows the intergrated AMD grphics to work.
+For this to work properely though your computer has to have at least 512MB of VRAM manually set (I'm using 1GB) and this is not possible to do on the factory Acer BIOS.
+To do this you need to download [SmokelessUMAF](https://github.com/DavidS95/Smokeless_UMAF) and copy it onto a FAT32 formatted USB. Once you've done that, boot from it.
+
 
 
