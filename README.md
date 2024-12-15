@@ -60,7 +60,7 @@ This machine is <s>VERY difficult</s> fairly easy to get running with the suppli
 For this to work properely though your computer has to have at least 512MB of VRAM manually set (I'm using 1GB) and this is not possible to do on the factory Acer BIOS.
 To do this you need to download [SmokelessUMAF](https://github.com/DavidS95/Smokeless_UMAF) 
 
-4. copy it onto a FAT32 formatted USB. 
+4. After downloading copy all files onto a FAT32 formatted USB. 
 
 5. Once you've done that press F12 and boot from it.
 
