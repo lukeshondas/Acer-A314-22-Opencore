@@ -1,5 +1,5 @@
 # Acer-A314-22-Opencore
-<img src="./SequoiaWorking.png">
+<img src="https://github.com/lukeshondas/Acer-A314-22-Opencore/blob/1d18cbd3efd49ba38623d0a853d26e286a4b6626/SequoiaWorking.png">
 
 ## Why?
 I've always wanted to try to get a working AMD Hackintosh, and this machine is very cheap and has a modern enough CPU so I decided to finally try and get an all AMD machine working.
