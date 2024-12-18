@@ -1,5 +1,5 @@
 # Acer-A314-22-Opencore
-<img src="./Working.png">
+<img src="./Sequoia.png">
 
 ## Why?
 I've always wanted to try to get a working AMD Hackintosh, and this machine is very cheap and has a modern enough CPU so I decided to finally try and get an all AMD machine working.
@@ -9,14 +9,11 @@ It works VERY well on Mac OS, and even for a weak CPU, I'd say it feels much sna
 
 ## Overview
 
-This EFI has been tested and is perfect on Mac OS 13 `Ventura` and Mac OS 14 `Sonoma` currently <strong> NOT WORKING </strong> on Mac OS 15 `Sequoia` (WIP).
+This EFI has been tested and is perfect on Mac OS 13 `Ventura` Mac OS 14 `Sonoma` and Mac OS 15 `Sequoia`.
 
 This machine is <s>VERY difficult</s> fairly easy to get running with the supplied EFI, Just make sure to follow my exact instructions under Usage.
 
-<s>Only faults so far, is no working wifi Also the laptop won't boot the full install with the charger plugged in, try unplug the charger if you experiance a kernel panic during boot. </s> THIS WAS CAUSED BY A FAULTY NVME SSD
-
-
-<s> No keyboard or touchpad working yet. </s>
+If you have any problems installing, make sure that your SSD is compatible with Mac OS and also <strong>Disable</strong> NootedRed during install on Sequoia.
 
 ## Specs
 
@@ -39,7 +36,7 @@ This machine is <s>VERY difficult</s> fairly easy to get running with the suppli
 | Keyboard                                          | ✅     |                                   |
 | Touchpad                                          | ✅     |With all gestures                  |
 | Ethernet                                          | ✅     |                                   |
-| Wifi                                              | ✅     |Working perfectly with Airportitlwm|
+| Wifi                                              | ✅     |Intel only with [Heliport](https://github.com/OpenIntelWireless/HeliPort) on Sequoia |
 | Bluetooth                                         | ✅     |                                   |
 | Camera & Mic                                      | ✅     |                                   |
 | Speaker & 3.5mm audio port                        | ✅     |                                   |
@@ -72,5 +69,5 @@ To do this you need to download [SmokelessUMAF](https://github.com/DavidS95/Smok
 
 9. Now you should be okay to hit escape and save your changes and then reboot, your then ready to use the EFI
 
-
+10. If installing Sequoia you MAY need to disable NootedRed during Install and then re-enable after install is complete.
 
